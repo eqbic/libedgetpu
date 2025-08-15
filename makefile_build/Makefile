@@ -30,7 +30,6 @@ LIBEDGETPU_LDFLAGS := \
 	-shared \
 	-Wl,--soname,libedgetpu.so.1 \
 	-Wl,--version-script=$(BUILDROOT)/tflite/public/libedgetpu.lds \
-	-fuse-ld=gold \
 	-lflatbuffers \
 	-labsl_flags \
 	-labsl_flags_internal \
